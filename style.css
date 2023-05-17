@@ -48,6 +48,7 @@ main img {
 
 .item-double {
   flex: 2;
+  
 }
 .item > img {
   width: 100%;
@@ -120,7 +121,7 @@ form button {
   padding: 15px;
   width: 100%;
 }
-.form-group {
+.group {
   display: flex;
   flex: 1;
 }
@@ -148,14 +149,22 @@ header {
   flex-wrap: wrap;
 }
 form {
+  display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
-.form-item{
-  flex-direction: column;  
+.item{
+  display: flex;  
+  flex-direction: column;
 }
 .group {
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+}
+.p {
+  display: flex;
+  align-items: center;
 }
 
 #host .group .item {
